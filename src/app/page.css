@@ -1,0 +1,30 @@
+.landing-page {
+    margin: 5px;
+    padding: 5px;
+
+    h1 {
+        text-align: center;
+        font-size: 200px;
+        color: var(--brand);
+        margin-bottom: 10vh;
+    }
+
+    .option-btn {
+        width: 30vw;
+        font-size: 3vw;
+        font-weight: bold;
+        text-align: center;
+        color: var(--brand);
+        background-color: transparent;
+        padding: 10px;
+        margin: 10px auto;
+        border: 2px var(--brand) solid;
+        border-radius: 10px;
+    }
+
+    .option-btn:hover {
+        background-color: var(--brand);
+        transition: 0.5s ease;
+        color: var(--foreground);
+    }
+}

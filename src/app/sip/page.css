@@ -1,0 +1,67 @@
+html,
+body {
+    padding: 1vh 0;
+}
+
+.calculate-forms {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: var(--bg-sec);
+    border-radius: 8px;
+    min-width: 350px;
+    width: 30vw;
+    font-size: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-group label {
+    font-weight: 500;
+    color: var(--foreground);
+}
+
+.input-group input {
+    padding: 0.75rem;
+    border: 1px solid var(--foreground);
+    border-radius: 4px;
+    background: var(--background);
+    color: var(--foreground);
+}
+
+.calculate-btn {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.calculate-btn button {
+    padding: 0.75rem;
+    background: transparent;
+    color: var(--brand);
+    border: 1px solid var(--brand);
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: ease 0.3s;
+}
+
+.calculate-btn button:hover {
+    background-color: var(--brand);
+    color: var(--foreground);
+}
